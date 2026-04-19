@@ -36,3 +36,6 @@ random.go
 reference.go
 reference
 *reference
+
+# Internal docs
+commits.txt

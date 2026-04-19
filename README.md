@@ -1,11 +1,9 @@
-## Project Moonramp:
-
-***LATEST: project restructure with 2 services in one repo Dec 29th, 2025***
+## Project Moonramp
 
 Moonramp allows users to create crypto wallets with their current holdings and manage selling strategies for each coin/token based on various metrics. Application allows users to plan for Dollar Cost Averaging selling or strategic sell points (% increase, price targets, etc.).
 
-- moonramp-ticker: calls CoinMarketcap API endpoints and updates the database with up to date data for each identified coin/token.
-- moonramp-web: Web application allows users to create wallets, add coins/tokens, set sell points and manage strategies. 
+- Service 1 [moonramp-ticker](http://github.com/jdbdev/moonramp-ticker): calls CoinMarketcap API endpoints and updates the database with up to date data for each identified coin/token.
+- Service 2 [moonramp-web](https://github.com/jdbdev/moonramp-web): Web application allows users to create wallets, add coins/tokens, set sell points and manage strategies. 
 
 ## Architecture:
 
